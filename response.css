@@ -1,0 +1,41 @@
+.text-box h1
+{
+    font-size: 25px;
+}
+.nav-links ul li{
+    display: block;
+}
+.nav-links{
+    position: absolute;
+    background: #f44336;
+    height:100vh;
+    width: 180px;
+    top: 0;
+    right: -180px;
+    text-align: left;
+    z-index: 1;
+    transition: 1s;
+}
+.fa::before{
+    display:block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.nav-links ul{
+    padding: 30px;
+
+}
+.row
+{
+    flex-direction: column;
+}
+.column
+{
+    margin: 10px 40px;
+}
+.testi img
+{
+    margin: 0 15px 0 0;
+}
