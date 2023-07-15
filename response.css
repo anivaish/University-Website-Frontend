@@ -31,7 +31,7 @@
 {
     flex-direction: column;
 }
-.column
+.column,.column1,.facilities-col
 {
     margin: 10px 40px;
 }
