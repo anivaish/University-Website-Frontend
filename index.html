@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.css">
     <link rel="stylesheet" media="screen and (max-width:700px)" href="response.css">
     <link rel="icon" href="img/school.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>University Website | University.com</title>
 </head>
 <body> 
-    <section class="header">
+    <section class="header" id="home">
         <nav>
             <a href="index.html"><img src="img/graduation-cap-45664.png" alt="logo"></a>
             <div class="nav-links" id="links">
                 <i class="fa fa-xmark" onclick="hide()"></i>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Courses</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#course">Courses</a></li>
+                    <li><a href="#campus">Campus</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="show()"></i>
@@ -35,7 +35,7 @@
     </div>
 </section>
  
-<section class="course">
+<section class="course" id="course"> 
     <h1>Courses We Offer</h1>
     <p>Choose from the various niches to learn cause Learning never exhausts the mind.</p>
      
@@ -59,7 +59,7 @@
 </section>
 
 <!-- campus -->
-<section class="campus">
+<section class="campus" id="campus">
     <h1>Our global Campuses</h1>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptates!</p>
 
@@ -120,7 +120,7 @@
 </section>
 
 <!-- enroll -->
-<section class="enroll">
+<section class="enroll" id="contact">
     <h1>Enroll For Various (Online/Offline) Courses Anywhere From The World.</h1>
     <a href="" class="btn">Contact Us</a>
 </section>
